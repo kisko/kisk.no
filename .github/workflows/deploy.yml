@@ -22,10 +22,8 @@ jobs:
         uses: actions/checkout@v4
       - name: Build
         uses: withastro/action@v3
-        # with:
-        #   path: .
-        #   node-version: 20
-        #   package-manager: npm@latest
+        with:
+          node-version: 22
 
   deploy:
     needs: build
