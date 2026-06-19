@@ -1,20 +1,65 @@
-[
-  {
-    "title": "Placeholder — replace with your first LinkedIn article",
-    "url": "https://www.linkedin.com/in/kisko/recent-activity/articles/",
-    "date": "2026-06-01",
-    "summary": "A one-line description of the article. This entry is a placeholder; real articles can be seeded automatically from LinkedIn."
-  },
-  {
-    "title": "Placeholder — a second example article",
-    "url": "https://www.linkedin.com/in/kisko/recent-activity/articles/",
-    "date": "2026-04-15",
-    "summary": "Add one object per published article — newest first ordering is handled automatically."
-  },
-  {
-    "title": "Placeholder — an older example article",
-    "url": "https://www.linkedin.com/in/kisko/recent-activity/articles/",
-    "date": "2026-02-02",
-    "summary": "Each entry needs a title, url and date; summary is optional."
-  }
+﻿[
+    {
+        "title": "Domain Multiplier: Building Impactful Digital Products",
+        "url": "https://www.linkedin.com/pulse/domain-multiplier-building-impactful-digital-products-skj%C3%B8nberg-f7ohe/",
+        "date": "2026-06-19",
+        "image": "/article-images/domain-multiplier-building-impactful-digital-products.jpg",
+        "summary": "We don't lack technology - we lack connection to the domains we serve. This article breaks down why digital initiatives underperform and how a 'domain multiplier' mindset can turn technical capability into real business impact."
+    },
+    {
+        "title": "Navigating the New Energy Frontier: Why Complexity, Not Just AI, Matters",
+        "url": "https://www.linkedin.com/pulse/navigating-new-energy-frontier-why-complexity-just-ai-skj%C3%B8nberg-tyq6e/",
+        "date": "2026-06-19",
+        "image": "/article-images/navigating-the-new-energy-frontier-why-complexity-not-just-ai-matters.jpg",
+        "summary": "AI may be getting smarter, but that doesn't make the world less complex. This article explores why digital systems, agentic AI, and modern operations demand a new mindset - one built on experimentation, boundaries, and the irreplaceable value of human intuition."
+    },
+    {
+        "title": "The Convergence Storm: Why Playing It Safe Is the Greatest Risk in Our Energy Future",
+        "url": "https://www.linkedin.com/pulse/convergence-storm-why-playing-safe-greatest-risk-our-energy-6a0ae/",
+        "date": "2026-06-19",
+        "image": "/article-images/the-convergence-storm-why-playing-it-safe-is-the-greatest-risk-in-our-energy-future.jpg",
+        "summary": "The biggest risk today isn't moving too fast - it's playing it safe. This article explores how AI, biology, and energy are converging into a new reality, and why standardizing the past may leave us unprepared for the future."
+    },
+    {
+        "title": "The Habits That Shape Leadership Teams",
+        "url": "https://www.linkedin.com/pulse/habits-shape-leadership-teams-kjell-inge-skj%C3%B8nberg-vjxbe/",
+        "date": "2026-06-19",
+        "image": "/article-images/the-habits-that-shape-leadership-teams.jpg",
+        "summary": "Culture isn't defined by what leadership teams say - it's defined by what they repeatedly do. This article explores how small, invisible habits shape trust, decisions, and performance, and why the biggest risk isn't bad habits - but not seeing them."
+    },
+    {
+        "title": "The Power of Mattering: Why Being a Small Piece Might Be the Biggest Job We Have",
+        "url": "https://www.linkedin.com/pulse/power-mattering-why-being-small-piece-biggest-job-we-have-skj%C3%B8nberg-zg4re/",
+        "date": "2026-06-19",
+        "image": "/article-images/the-power-of-mattering-why-being-a-small-piece-might-be-the-biggest-job-we-have.jpg",
+        "summary": "Feeling like 'just a small piece' might be the biggest risk to performance. This article explores how trust, psychological safety, and a sense of mattering unlock ownership, growth, and the willingness to go beyond what's expected."
+    },
+    {
+        "title": "The Words We Choose: Notes from a Technologist on a Continuous Path",
+        "url": "https://www.linkedin.com/pulse/words-we-choose-notes-from-technologist-continuous-path-skj%C3%B8nberg-fiame/",
+        "date": "2026-06-19",
+        "image": "/article-images/the-words-we-choose-notes-from-a-technologist-on-a-continuous-path.jpg",
+        "summary": "In a world where natural language is becoming the interface, words are no longer just communication - they are execution. This article explores how intent, clarity, and empathy shape outcomes, and why the gap between what we mean and what people hear matters more than ever."
+    },
+    {
+        "title": "The Shift from Doing to Leading: Reflections on a Year of Growth",
+        "url": "https://www.linkedin.com/pulse/shift-from-doing-leading-reflections-year-growth-kjell-inge-skj%C3%B8nberg-amxje/",
+        "date": "2026-06-19",
+        "image": "/article-images/the-shift-from-doing-to-leading-reflections-on-a-year-of-growth.jpg",
+        "summary": "Leadership isn't about doing more - it's about enabling others to do their best work. This article reflects on the shift from individual contribution to building structure, trust, and autonomy, and why real impact comes from shaping the environment, not controlling the work."
+    },
+    {
+        "title": "The Curious Explorer: Navigating the Future of Energy with AI and Grit",
+        "url": "https://www.linkedin.com/pulse/curious-explorer-navigating-future-energy-ai-grit-skj%C3%B8nberg-4tgzf/",
+        "date": "2026-06-19",
+        "image": "/article-images/the-curious-explorer-navigating-the-future-of-energy-with-ai-and-grit.jpg",
+        "summary": "In a world searching for certainty, curiosity might be the most powerful strategy we have. This article explores how grit, patience, and a willingness to explore the unknown drive real innovation - and why becoming a digital frontrunner requires more than just following a roadmap."
+    },
+    {
+        "title": "Playing the Long Game in Tech: An Infinite Mindset for a World of Endless Innovation",
+        "url": "https://www.linkedin.com/pulse/playing-long-game-tech-infinite-mindset-world-endless-skj%C3%B8nberg-x5xuf/",
+        "date": "2026-06-19",
+        "image": "/article-images/playing-the-long-game-in-tech-an-infinite-mindset-for-a-world-of-endless-innovation.jpg",
+        "summary": "The biggest mistake in tech isn't choosing the wrong solution - it's thinking there is a final one. This article explores why an infinite mindset matters, and how long-term thinking, integration, and adaptability outperform the pursuit of the 'perfect' technology."
+    }
 ]
