@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Placeholder — replace with your first LinkedIn article",
+    "url": "https://www.linkedin.com/in/kisko/recent-activity/articles/",
+    "date": "2026-06-01",
+    "summary": "A one-line description of the article. This entry is a placeholder; real articles can be seeded automatically from LinkedIn."
+  },
+  {
+    "title": "Placeholder — a second example article",
+    "url": "https://www.linkedin.com/in/kisko/recent-activity/articles/",
+    "date": "2026-04-15",
+    "summary": "Add one object per published article — newest first ordering is handled automatically."
+  },
+  {
+    "title": "Placeholder — an older example article",
+    "url": "https://www.linkedin.com/in/kisko/recent-activity/articles/",
+    "date": "2026-02-02",
+    "summary": "Each entry needs a title, url and date; summary is optional."
+  }
+]
