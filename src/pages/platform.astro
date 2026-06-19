@@ -5,7 +5,7 @@ import logoFull from '../../Images/KISK_logo_full.png';
 
 <Layout
   title="Platform — kisk.no"
-  description="Explore the areas that will grow under kisk.no: apps, articles, tools, and selected updates."
+  description="Explore the areas that will grow under kisk.no: apps, tools, and selected updates."
 >
   <main>
     <div class="shell">
@@ -16,8 +16,7 @@ import logoFull from '../../Images/KISK_logo_full.png';
 
         <nav class="nav" aria-label="Primary">
           <a href="/">Home</a>
-          <a href="/articles/">Articles</a>
-          <a href="https://www.linkedin.com/in/kisko/" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="/platform/">Platform</a>
         </nav>
       </header>
 
@@ -26,7 +25,7 @@ import logoFull from '../../Images/KISK_logo_full.png';
         <h1>What will grow under KISK.</h1>
         <p class="lede">
           This page outlines the areas that will gradually expand across kisk.no,
-          from applications and articles to tools, ideas, and selected updates.
+          from applications to tools, ideas, and selected updates.
         </p>
       </section>
 
@@ -36,7 +35,6 @@ import logoFull from '../../Images/KISK_logo_full.png';
           <h2>A single place for the work that matters most.</h2>
           <ul class="pill-grid">
             <li>Apps</li>
-            <li>Articles</li>
             <li>Ideas</li>
             <li>Tools</li>
             <li>Case studies</li>
@@ -53,15 +51,15 @@ import logoFull from '../../Images/KISK_logo_full.png';
           </p>
         </article>
 
-        <article class="platform-card platform-card-linkedin">
-          <p class="card-label">LinkedIn</p>
-          <h2>Follow ongoing thoughts, articles, and updates.</h2>
+        <article class="platform-card platform-card-updates">
+          <p class="card-label">Updates</p>
+          <h2>Track new additions as the platform expands.</h2>
           <p>
-            LinkedIn is the best place to keep in touch while this site grows
-            into its full form.
+            New tools and experiments will be surfaced directly on
+            kisk.no as they are published.
           </p>
-          <a class="text-link" href="https://www.linkedin.com/in/kisko/" target="_blank" rel="noreferrer">
-            Open linkedin.com/in/kisko
+          <a class="text-link" href="/">
+            Go to homepage
           </a>
         </article>
       </section>
@@ -191,7 +189,7 @@ import logoFull from '../../Images/KISK_logo_full.png';
         linear-gradient(180deg, var(--panel-strong), rgb(8 13 24 / 90%));
     }
 
-    .platform-card-linkedin {
+    .platform-card-updates {
       grid-column: span 6;
       border-color: rgb(111 197 255 / 26%);
     }
@@ -255,7 +253,7 @@ import logoFull from '../../Images/KISK_logo_full.png';
 
       .platform-card,
       .platform-card-primary,
-      .platform-card-linkedin {
+      .platform-card-updates {
         grid-column: span 12;
       }
     }
