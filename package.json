@@ -6,9 +6,11 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
+    "prebuild": "npm run sync:articles",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "sync:articles": "node scripts/sync-articles.mjs"
   },
   "dependencies": {
     "astro": "^6.4.6"

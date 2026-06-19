@@ -3,7 +3,6 @@ import Layout from '../layouts/Layout.astro';
 import logoFull from '../../Images/KISK_logo_full.png';
 import articlesData from '../data/articles.json';
 
-// Newest first. Sorting happens at build time, so the static HTML is already ordered.
 const articles = [...articlesData].sort((a, b) => b.date.localeCompare(a.date));
 
 const dateFmt = new Intl.DateTimeFormat('en-GB', {
@@ -15,8 +14,8 @@ const formatDate = (iso: string) => dateFmt.format(new Date(iso));
 ---
 
 <Layout
-  title="Articles — kisk.no"
-  description="Articles and writing by Kjell Inge Skjønberg, published on LinkedIn and collected here."
+  title="Articles - kisk.no"
+  description="Articles and writing by Kjell Inge Skjonberg, published on LinkedIn and collected here."
 >
   <main>
     <div class="shell">
@@ -46,12 +45,25 @@ const formatDate = (iso: string) => dateFmt.format(new Date(iso));
           {articles.map((article) => (
             <li class="article-card">
               <a class="article-link" href={article.url} target="_blank" rel="noopener noreferrer">
-                <div class="article-head">
-                  <h2>{article.title}</h2>
-                  <time class="article-date" datetime={article.date}>{formatDate(article.date)}</time>
+                <div class="article-layout">
+                  {article.image && (
+                    <img
+                      class="article-image"
+                      src={article.image}
+                      alt={article.title}
+                      loading="lazy"
+                      decoding="async"
+                    />
+                  )}
+                  <div class="article-content">
+                    <div class="article-head">
+                      <h2>{article.title}</h2>
+                      <time class="article-date" datetime={article.date}>{formatDate(article.date)}</time>
+                    </div>
+                    {article.summary && <p class="article-summary">{article.summary}</p>}
+                    <span class="text-link">Read on LinkedIn -></span>
+                  </div>
                 </div>
-                {article.summary && <p class="article-summary">{article.summary}</p>}
-                <span class="text-link">Read on LinkedIn →</span>
               </a>
             </li>
           ))}
@@ -182,7 +194,6 @@ const formatDate = (iso: string) => dateFmt.format(new Date(iso));
       line-height: 1.55;
     }
 
-    /* Only this region scrolls — the page itself stays fixed to the viewport. */
     .articles-region {
       min-height: 0;
       overflow-y: auto;
@@ -231,6 +242,27 @@ const formatDate = (iso: string) => dateFmt.format(new Date(iso));
 
     .article-link:hover {
       text-decoration: none;
+    }
+
+    .article-layout {
+      display: grid;
+      grid-template-columns: 168px minmax(0, 1fr);
+      gap: 14px;
+      align-items: start;
+    }
+
+    .article-image {
+      width: 168px;
+      aspect-ratio: 16 / 9;
+      object-fit: cover;
+      border-radius: 12px;
+      border: 1px solid var(--border);
+      background: rgb(255 255 255 / 0.03);
+      display: block;
+    }
+
+    .article-content {
+      min-width: 0;
     }
 
     .article-head {
@@ -300,6 +332,14 @@ const formatDate = (iso: string) => dateFmt.format(new Date(iso));
       .article-head {
         flex-direction: column;
         gap: 4px;
+      }
+
+      .article-layout {
+        grid-template-columns: 1fr;
+      }
+
+      .article-image {
+        width: 100%;
       }
     }
   </style>
